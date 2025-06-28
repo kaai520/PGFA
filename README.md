@@ -14,9 +14,9 @@ We provide a theoretical analysis to support our prototype-guided text feature a
 Compared with the top competitor SMIE method, our PGFA achieves absolute accuracy improvements of 22.96\%, 12.53\%, and 18.54\% on the NTU-60, NTU-120, and PKU-MMD datasets, respectively.
 
 # Framework
-**Training**
+## Training Framework
 ![traing](./assets/training.png)
-**Testing**
+## Testing Framework
 ![testing](./assets/testing.png)
 <!-- ![prototype](./assets/prototype.png){:style="width:50%"} -->
 <img src="./assets/prototype.png" alt="prototype" width="60%" />
@@ -71,11 +71,11 @@ Our PGFA employs two experiment setting.
 
 #### Training & Testing
 Example for training and testing on NTU-60 split_1.  
-You can change some settings of config.py.  
 ```bash
 # Setting 1
 $ python main.py with 'train_mode="main"'
 ```
+You can change some settings of config.py.  
 
 ### Setting 2
 #### Training & Testing
