@@ -1,0 +1,120 @@
+Drink water
+Eat meal/snack
+Brushing teeth
+Brushing hair
+Drop
+Pickup
+Throw
+Sitting down
+Standing up (from sitting position)
+Clapping
+Reading
+Writing
+Tear up paper
+Wear jacket
+Take off jacket
+Wear a shoe
+Take off a shoe
+Wear on glasses
+Take off glasses
+Put on a hat/cap
+Take off a hat/cap
+Cheer up
+Hand waving
+Kicking something
+Reach into pocket
+Hopping (one foot jumping)
+Jumping up
+Make a phone call/Answer phone
+Playing with phone/tablet
+Typing on a keyboard
+Pointing to something with finger
+Taking a selfie
+Checking time (from watch)
+Rubbing two hands together
+Nod headbow
+Shake head
+Wiping face
+Salute
+Putting the palms together
+Crossing hands in front (saying stop)
+Sneeze/cough
+Staggering
+Falling
+Touching head (headache)
+Touching chest (stomachache/heart pain)
+Touching back (backache)
+Touching neck (neckache)
+Nausea or vomiting
+Using a fan (with hand or paper)
+Punching/Slapping other person
+Kicking other person
+Pushing other person
+Patting on back of other person
+Pointing finger at the other person
+Hugging other person
+Giving something to other person
+Touching other person's pocket
+Handshaking
+Walking towards each other
+Walking apart from each other
+Putting on headphones
+Taking off headphones
+Shooting at the basket
+Bouncing a ball
+Tennis bat swing
+Juggling table tennis balls
+Hushing
+Flicking hair
+Thumbs up
+Thumbs down
+Making OK sign
+Making victory sign
+Stapling book
+Counting money
+Cutting nails
+Cutting paper (using scissors)
+Snapping fingers
+Opening bottle
+Sniffing
+Squatting down
+Tossing a coin
+Folding paper
+Balling up paper
+Playing with a magic cube
+Applying cream on face
+Applying cream on hand back
+Putting on a bag
+Taking off a bag
+Putting something into a bag
+Taking something out of a bag
+Opening a box
+Moving heavy objects
+Shaking fist
+Throwing up a cap/hat
+Raising hands up
+Crossing arms
+Making arm circles
+Swinging arms
+Running on the spot
+Butt kicks (kick backward)
+Cross toe touch
+Side kick
+Yawning
+Stretching oneself
+Blowing nose
+Hitting other person with something
+Wielding knife towards other person
+Knocking over other person (hit with body)
+Grabbing other person's stuff
+Shooting at other person with a gun
+Stepping on foot
+High-five
+Cheers and drink
+Carrying something with other person
+Taking a photo of other person
+Following other person
+Whispering in other person's ear
+Exchanging things with other person
+Supporting somebody with hand
+Finger-guessing game (playing rock-paper-scissors)
