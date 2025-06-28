@@ -259,7 +259,7 @@ class Processor:
         self.dim_loss = running_loss.mean().item()
 
     @ex.capture
-    def test_epoch(self, unseen_label, epoch, DA):
+    def test_epoch(self, unseen_label, epoch, DA, support_factor):
         self.encoder.eval()
         self.adapter.eval()
 
@@ -319,10 +319,10 @@ class Processor:
                 class_support_set = feat_all[mask]
                 class_ent = ent_all[mask]
                 class_len = class_ent.shape[0]
-                if int(class_len*0.9) < 1:
+                if int(class_len*support_factor) < 1:
                     z = self.full_language[unseen_label[i:i+1]]
                 else:
-                    _, indices = torch.topk(-class_ent, int(class_len*0.9))
+                    _, indices = torch.topk(-class_ent, int(class_len*support_factor))
                     z = torch.mean(class_support_set[indices], dim=0, keepdim=True)
                 z_list.append(z)
                 
