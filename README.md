@@ -48,9 +48,7 @@ $ bash run.sh
 Please consult the official installation tutorial (e.g., [ShiftGCN](https://github.com/kchengiva/Shift-GCN) and [PyTorch](https://pytorch.org/get-started/previous-versions/)) if you experience any difficulties.
 
 ## Data Preparation
-We apply the same dataset processing as [SMIE](https://github.com/YujieOuO/SMIE). You can download in BaiduYun link [data.zip](https://pan.baidu.com/s/1G8q_0fhLGIlNrCt4Oy0pkg). Please download and extract it to the current folder (PGFA). 
-
-The code: pgfa
+We apply the same dataset processing as [SMIE](https://github.com/YujieOuO/SMIE). You can download in BaiduYun link [data.zip](https://pan.baidu.com/s/1G8q_0fhLGIlNrCt4Oy0pkg) [Extraction code: pgfa]. Please download and extract it to the current folder (PGFA). 
 
 The subfolder "zero-shot" of "data" contains the processed skeleton data for each dataset, already split into seen and unseen categories. The subfolder "language" contains the pre-extracted text features obtained using Sentence-Bert.
 
