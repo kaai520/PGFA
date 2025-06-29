@@ -11,7 +11,7 @@ def my_config():
     lr = 0.05 # 0.05 for ntu60 and pku, 0.005 for ntu120
     margin = 0.1
     weight_decay = 0.0005
-    epoch_num = 100
+    epoch_num = 50
     batch_size = 128 #128
     loss_type = "kl"
     alpha = 1

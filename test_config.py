@@ -11,7 +11,7 @@ def my_config():
     lr = 0.05 #1e-5
     margin = 0.1
     weight_decay = 0.0005
-    epoch_num = 100
+    epoch_num = 50
     batch_size = 128 #128
     loss_type = "kl" # "kl" or "mse" or "kl+mse" or "kl+kd" or "kl+cosface" or "kl+sphereface" or "kl+margin"
     alpha = 1
