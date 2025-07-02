@@ -1,5 +1,5 @@
 # Zero-shot Skeleton-based Action Recognition with Prototype-guided Feature Alignment [TIP 2025]
-> [Kai Zhou](https://scholar.google.com/citations?user=58UyQ9cAAAAJ&hl=zh-CN&oi=ao), [Shuhai Zhang](https://scholar.google.com/citations?user=oNhLYoEAAAAJ&hl=zh-CN), [Zeng You](https://scholar.google.com/citations?user=7xCkJ-QAAAAJ&hl=zh-CN), [Jinwu Hu](https://scholar.google.com/citations?user=XmqjPi0AAAAJ&hl=en), [Mingkui Tan](https://tanmingkui.github.io/), and [Fei Liu](https://scholar.google.com/citations?user=gC-YMYgAAAAJ&hl=en)\
+> [Kai Zhou](https://scholar.google.com/citations?user=58UyQ9cAAAAJ&hl=zh-CN&oi=ao), [Shuhai Zhang](https://scholar.google.com/citations?user=oNhLYoEAAAAJ&hl=zh-CN), [Zeng You](https://www.youzeng.com.cn), [Jinwu Hu](https://fhujinwu.github.io), [Mingkui Tan](https://tanmingkui.github.io/), and [Fei Liu](https://scholar.google.com/citations?user=gC-YMYgAAAAJ&hl=en)\
 South China University of Technology
 
 <a href="https://arxiv.org/abs/2507.00566v1" target='_blank'>
@@ -107,3 +107,17 @@ This project is licensed under the terms of the MIT license.
 
 ## Contact
 For any questions, feel free to contact: kayjoe0723@gmail.com
+
+## Citation
+
+If you use this code in your research or implementations, please cite the following paper:
+
+```bibtex
+@article{zhou2025pgfa,
+  title={Zero-shot Skeleton-based Action Recognition with Prototype-guided Feature Alignment},
+  author={Kai Zhou and Shuhai Zhang and Zeng You and Jinwu Hu and Mingkui Tan and Fei Liu},
+  journal={IEEE Transactions on Image Processing},
+  year={2025},
+  publisher={IEEE}
+}
+```
