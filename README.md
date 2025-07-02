@@ -105,9 +105,6 @@ You can also choose different split id of config.py (sota compare part).
 ## Licence
 This project is licensed under the terms of the MIT license.
 
-## Contact
-For any questions, feel free to contact: kayjoe0723@gmail.com
-
 ## Citation
 
 If you use this code in your research or implementations, please cite the following paper:
@@ -121,3 +118,6 @@ If you use this code in your research or implementations, please cite the follow
   publisher={IEEE}
 }
 ```
+
+## Contact
+For any questions, feel free to contact: kayjoe0723@gmail.com
