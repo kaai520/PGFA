@@ -1,5 +1,5 @@
 # Zero-shot Skeleton-based Action Recognition with Prototype-guided Feature Alignment [TIP 2025]
-> [Kai Zhou](https://scholar.google.com/citations?user=58UyQ9cAAAAJ&hl=zh-CN&oi=ao), [Shuhai Zhang](https://scholar.google.com/citations?user=oNhLYoEAAAAJ&hl=zh-CN), [Zeng You](https://www.youzeng.com.cn), [Jinwu Hu](https://fhujinwu.github.io), [Mingkui Tan](https://tanmingkui.github.io/), and [Fei Liu](https://scholar.google.com/citations?user=gC-YMYgAAAAJ&hl=en)\
+> [Kai Zhou](https://scholar.google.com/citations?user=58UyQ9cAAAAJ&hl=zh-CN&oi=ao), [Shuhai Zhang](https://zshsh98.github.io), [Zeng You](https://www.youzeng.com.cn), [Jinwu Hu](https://fhujinwu.github.io), [Mingkui Tan](https://tanmingkui.github.io/), and [Fei Liu](https://scholar.google.com/citations?user=gC-YMYgAAAAJ&hl=en)\
 South China University of Technology
 
 <a href="https://arxiv.org/abs/2507.00566v1" target='_blank'>
