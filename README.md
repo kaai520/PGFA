@@ -92,13 +92,14 @@ $ python main.py with 'train_mode="sota"'
 You can also choose different split id of config.py (sota compare part).  
 
 ## Todo List
-1. Upload checkpoints.
-2. Upload skeleton-focused descriptions and text features.
-3. One-shot experiments.
+- [ ] Upload checkpoints.
+- [ ] Upload skeleton-focused descriptions and text features.
+- [ ] One-shot experiments.
+
 
 ## Acknowledgement
 * The codebase is from [MS2L](https://github.com/LanglandsLin/MS2L).
-* The skeleton backbone is based on [ST-GCN](https://github.com/yysijie/st-gcn/blob/master/OLD_README.md) and [ShiftGCN](https://github.com/kchengiva/Shift-GCN).
+* The skeleton backbones are based on [ST-GCN](https://github.com/yysijie/st-gcn/blob/master/OLD_README.md) and [ShiftGCN](https://github.com/kchengiva/Shift-GCN).
 * The text feature is based on [Sentence-Bert](https://github.com/UKPLab/sentence-transformers).
 * The baseline methods are from [SMIE](https://github.com/YujieOuO/SMIE).
 
