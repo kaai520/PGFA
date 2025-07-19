@@ -26,7 +26,7 @@ Compared with the top competitor SMIE method, our PGFA achieves absolute accurac
 ### Testing Framework
 ![testing](./assets/testing.png)
 <!-- ![prototype](./assets/prototype.png){:style="width:50%"} -->
-<img src="./assets/prototype.png" alt="prototype" width="60%" />
+<img src="./assets/prototype.png" alt="prototype" width="50%" />
 
 ## Requirements
 ![python = 3.11](https://img.shields.io/badge/python-3.7.11-green)
