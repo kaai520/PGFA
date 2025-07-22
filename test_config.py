@@ -5,9 +5,9 @@ ex = Experiment("baseline", save_git_info=False)
  
 @ex.config
 def my_config():
-    track = "main"
+    track = "main" # main or sota
     split = '1'
-    dataset = "ntu60"
+    dataset = "ntu60" # ntu60: split 1-3, sota_split 5,12; ntu120: split 4-6, sota_split 10,24; pku: split 7-9
     lr = 0.05 #1e-5
     margin = 0.1
     weight_decay = 0.0005
@@ -18,17 +18,10 @@ def my_config():
     beta = 1
     m = 1
     DA = True
-    support_factor = 0.9 # alpha in paper [0,1]
-    # weight_path = './output/model/split_{}_des_DA_epoch50_lr{}.pt'.format(split, lr)
-    # log_path = './output/log/split_{}_des_DA_epoch50_lr{}_test_alpha{}.log'.format(split,lr,support_factor)
-    # save_path = './output/model/split_{}_des_DA_epoch50_lr{}_test_alpha{}.pt'.format(split,lr,support_factor)
-    # split 1-3 fix_ce_des
-    # split 4-9 des_fix_ce
-    # split 1-3 ce_finetune_des
-    # split 4-9 des_finetune
-    weight_path = './output/model/split_{}_des_fix_ce_epoch50_lr{}.pt'.format(split, lr)
-    log_path = './output/log/split_{}_des_fix_ce_epoch50_lr{}_test_alpha{}.log'.format(split,lr,support_factor)
-    save_path = './output/model/split_{}_des_fix_ce_epoch50_lr{}_test_alpha{}.pt'.format(split,lr,support_factor)
+    support_factor = 0.9 # alpha in paper [0,1], 0.9 for NTU-60, 0.4 for NTU-120, 1.0 for PKU-MMD
+    weight_path = './ckpts/split_{}_des_DA_epoch50_lr{}.pt'.format(split, lr)
+    log_path = './output/log/test.log' # modify what you want
+    save_path = './output/model/test.pt'
     loss_mode = "step" # "step" or "cos"
     step = [50, 80]
     

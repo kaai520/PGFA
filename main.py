@@ -360,6 +360,7 @@ class Processor:
 
     @ex.capture
     def save_model(self, save_path):
+        os.makedirs(os.path.dirname(save_path), exist_ok=True)
         torch.save({'encoder':self.encoder.state_dict(), 'adapter':self.adapter.state_dict()}, save_path)
 
     def start(self):
@@ -607,6 +608,7 @@ class SotaProcessor:
     
     @ex.capture
     def save_model(self, save_path):
+        os.makedirs(os.path.dirname(save_path), exist_ok=True)
         torch.save({'encoder':self.encoder.state_dict(), 'adapter':self.adapter.state_dict()}, save_path)
 
     def start(self):

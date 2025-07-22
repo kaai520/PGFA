@@ -1,6 +1,6 @@
 import numpy as np
 import logging
-from config import *
+from one_shot_test_config import *
 
 def get_logger(filename, verbosity=1, name=None):
     level_dict = {0: logging.DEBUG, 1: logging.INFO, 2: logging.WARNING}

@@ -102,4 +102,6 @@ venv.bak/
 /data
 .git
 data.zip
+/output
+/ckpts
 

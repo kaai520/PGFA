@@ -7,6 +7,7 @@ def get_logger(filename, verbosity=1, name=None):
     formatter = logging.Formatter(
         "[%(asctime)s][%(levelname)s] %(message)s"
     )
+    os.makedirs(os.path.dirname(filename), exist_ok=True)
     logger = logging.getLogger(name)
     logger.setLevel(level_dict[verbosity])
 
