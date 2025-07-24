@@ -1,4 +1,4 @@
-# Zero-shot Skeleton-based Action Recognition With Prototype-Guided Feature Alignment [TIP 2025]
+# Zero-Shot Skeleton-Based Action Recognition With Prototype-Guided Feature Alignment [TIP 2025]
 > [Kai Zhou](https://kaai520.github.io), [Shuhai Zhang](https://zshsh98.github.io), [Zeng You](https://www.youzeng.com.cn), [Jinwu Hu](https://fhujinwu.github.io), [Mingkui Tan](https://tanmingkui.github.io/), and [Fei Liu](https://scholar.google.com/citations?user=gC-YMYgAAAAJ)\
 South China University of Technology
 
@@ -10,7 +10,7 @@ South China University of Technology
 [![PWC](https://img.shields.io/endpoint.svg?url=https://paperswithcode.com/badge/zero-shot-skeleton-based-action-recognition-2/zero-shot-skeletal-action-recognition-on-ntu-1)](https://paperswithcode.com/sota/zero-shot-skeletal-action-recognition-on-ntu-1?p=zero-shot-skeleton-based-action-recognition-2)
 [![PWC](https://img.shields.io/endpoint.svg?url=https://paperswithcode.com/badge/zero-shot-skeleton-based-action-recognition-2/one-shot-3d-action-recognition-on-ntu-rgbd)](https://paperswithcode.com/sota/one-shot-3d-action-recognition-on-ntu-rgbd?p=zero-shot-skeleton-based-action-recognition-2)
 
-This is an official PyTorch implementation of **"Zero-shot Skeleton-based Action Recognition With Prototype-Guided Feature Alignment" in [IEEE TIP 2025](https://doi.org/10.1109/TIP.2025.3586487)** (DOI: 10.1109/TIP.2025.3586487).
+This is an official PyTorch implementation of **"Zero-Shot Skeleton-Based Action Recognition With Prototype-Guided Feature Alignment" in [IEEE TIP 2025](https://doi.org/10.1109/TIP.2025.3586487)** (DOI: 10.1109/TIP.2025.3586487).
 
 ## Abstract
 Zero-shot skeleton-based action recognition aims to classify unseen skeleton-based human actions without prior exposure to such categories during training. This task is extremely challenging due to the difficulty in generalizing from known to unknown actions. Previous studies typically use two-stage training: pre-training skeleton encoders on seen action categories using cross-entropy loss and then aligning pre-extracted skeleton and text features, enabling knowledge transfer to unseen classes through skeleton-text alignment and language models' generalization.
@@ -133,7 +133,7 @@ If you use this code in your research or implementations, please cite the follow
 
 ```bibtex
 @article{zhou2025pgfa,
-  title={Zero-shot Skeleton-based Action Recognition With Prototype-Guided Feature Alignment},
+  title={Zero-Shot Skeleton-Based Action Recognition With Prototype-Guided Feature Alignment},
   author={Kai Zhou and Shuhai Zhang and Zeng You and Jinwu Hu and Mingkui Tan and Fei Liu},
   journal={IEEE Transactions on Image Processing},
   year={2025},
